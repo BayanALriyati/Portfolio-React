@@ -1,6 +1,5 @@
 import React  from "react";
 import { FaGithub } from "react-icons/fa";
-import { FaLaptopCode } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
@@ -24,16 +23,6 @@ class Skills extends React.Component {
     <div className="box-container">
 
         <div className="box">
-            <i><FaGithub /></i>
-            <h3>Github</h3>
-        </div>
-        
-        <div className="box">
-            <i className="icon"><FaLaptopCode /></i>
-            <h3>Web Design</h3>
-        </div>
-
-        <div className="box">
             <i><FaHtml5 /></i>
             <h3>HTML</h3>
         </div>
@@ -41,13 +30,8 @@ class Skills extends React.Component {
         <div className="box">
             <i><FaCss3 /></i>
             <h3>CSS</h3>
-        </div>
-        
-        <div className="box">
-            <i><FaBootstrap /></i>
-            <h3>Bootstrap</h3>
-        </div>
-        
+        </div>     
+
         <div className="box">
             <i><SiJavascript /></i>
             <h3>Java Script</h3>
@@ -71,6 +55,16 @@ class Skills extends React.Component {
         <div className="box">
            <i><FaReact /></i>
             <h3>React</h3>
+        </div>
+
+        <div className="box">
+            <i><FaBootstrap /></i>
+            <h3>Bootstrap</h3>
+        </div>
+        
+        <div className="box">
+            <i><FaGithub /></i>
+            <h3>Github</h3>
         </div>
         
     </div>
