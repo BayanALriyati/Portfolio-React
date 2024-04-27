@@ -352,7 +352,7 @@ header .follow a:hover{
 .Project .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
+    object-fit:fill;
     border-radius: .5rem;
     position: relative;
     z-index: 1;

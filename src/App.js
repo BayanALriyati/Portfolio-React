@@ -40,15 +40,33 @@ class App extends React.Component {
       Skill_8: 'PHP',
       Skill_9: 'Laravel',
       Skill_10: 'React',
-      NamePro_1:'Portfolio',
-      Link_1:'https://bayanalriyati.github.io/checker/',
-      NamePro_2: 'Checker',
-      Link_2:'https://bayanalriyati.github.io/checker/',
-      NamePro_3: 'FeLux',
-      Link_3:'https://github.com/salwa-yehya/FeLuxWebsite',
-      NamePro_4: 'at moment',
-      Link_4:'https://github.com/BayanALriyati/Laravel',
+      NamePro_1:'Digital Clock',
+      Link_1:'https://github.com/BayanALriyati/Digital-Clock',
+      NamePro_2: 'Portfolio Website',
+      Link_2:'https://github.com/BayanALriyati/CV',
+      NamePro_3: 'checker',
+      Link_3:'https://bayanalriyati.github.io/checker/',
+      NamePro_4: 'The Best GIFT',
+      Link_4:'https://github.com/BayanALriyati/MasterPiece-frontEnd',
+      NamePro_5:'The Best GIFT',
+      Link_5:'https://github.com/BayanALriyati/MasterPiece-BackEnd',
+      NamePro_6: 'FeLux Website',
+      Link_6:'https://github.com/BayanALriyati/FeLuxWebsite',
      }
+//      Digital Clock 1
+// Portfolio Website 2
+// checker 3
+// The Best GIFT(frontEnd) 4
+// The Best GIFT(backEnd) 5
+// FeLux Website 6
+// Delicious Food 7
+// https://github.com/BayanALriyati/Digital-Clock
+// https://github.com/BayanALriyati/CV
+// https://bayanalriyati.github.io/checker/
+// https://github.com/BayanALriyati/MasterPiece-frontEnd
+// https://github.com/BayanALriyati/project-4
+// https://github.com/BayanALriyati/FeLuxWebsite
+// https://github.com/BayanALriyati/MasterPiece-BackEnd
   };
   
   render(){
