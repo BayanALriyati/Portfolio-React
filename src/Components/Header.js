@@ -10,13 +10,32 @@ class Header extends React.Component {
     render(){
    return (
  <>
-<div className="cursor-1"></div>
-<div className="cursor-2"></div>
+    <div className="header-media">
+        <div className="container-head">
+            <div className="header_content">
+               <div className="brand">
+                <a href="#hero">
+                    <h2><span>B</span>ayan <span>AL</span>Riyati</h2>
+                </a>
+               </div>
+                <ul className="nav-menu">
+                    <li><a className="active-link" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+{/* <div className="cursor-1"></div>
+<div className="cursor-2"></div> */}
 
 
-<div id="menu-bars" className="fas fa-bars"></div>
+{/* <div id="menu-bars" className="fas fa-bars"></div> */}
  <header>
-
 <a href="#" className="logo"> <span>BAYAN</span> AL-RIYATI </a>
 
 <nav className="navbar">

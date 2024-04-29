@@ -12,8 +12,9 @@ class ContactUs extends React.Component {
     render(){
    return (
  <>
+
 <section id="contact" className="contact">
-        <h1 class="heading"> <span> Contact </span> Me </h1>
+        <h1 className="heading"> <span> Contact </span> Me </h1>
        <div className="container">
             <div className="left-details">
                 <h3>Let's talk</h3>
@@ -32,8 +33,10 @@ class ContactUs extends React.Component {
                         <label for="name">Your Message</label>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
-                    <button className="btn">Send Message</button>
+                    {/* <button className="btn">Send Message</button> */}
                 </form>
+                <button className="btn">Send Message</button>
+
             </div>
             <div className="right-details">
                 <img src={require("../images/contact.png")} alt="image"/>
