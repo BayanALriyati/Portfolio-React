@@ -40,7 +40,7 @@ class Projects extends React.Component {
          <img src={require("../images/The Best GIFT.png")} alt="image"/>
          <h3>{this.props.NamePro_4}</h3>
          <div className="icons">
-             <a href={this.props.Link_4} ><i><FaLink/></i></a>
+             <a href={this.props.Link_4}><i><FaLink/></i></a>
          </div>
      </div>
 
@@ -54,9 +54,9 @@ class Projects extends React.Component {
 
      <div className="box">
          <img src={require("../images/felux.png")} alt="image"/>
-         <h3>{this.props.NamePro_}</h3>
+         <h3>{this.props.NamePro_6}</h3>
          <div className="icons">
-             <a href={this.props.Link_} ><i><FaLink/></i></a>
+             <a href={this.props.Link_6}><i><FaLink/></i></a>
          </div>
      </div>
      

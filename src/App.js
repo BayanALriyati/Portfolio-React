@@ -5,8 +5,9 @@ import About from './Components/About';
 import Experience from './Components/Experience';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import ContactUs from './Components/ContactUs';
 
-
+ 
 // import Footer from './Components/Footer';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -48,10 +49,11 @@ class App extends React.Component {
       Link_3:'https://bayanalriyati.github.io/checker/',
       NamePro_4: 'The Best GIFT',
       Link_4:'https://github.com/BayanALriyati/MasterPiece-frontEnd',
-      NamePro_5:'The Best GIFT',
+      NamePro_5: 'The Best GIFT',
       Link_5:'https://github.com/BayanALriyati/MasterPiece-BackEnd',
       NamePro_6: 'FeLux Website',
       Link_6:'https://github.com/BayanALriyati/FeLuxWebsite',
+      
      }
 //      Digital Clock 1
 // Portfolio Website 2
@@ -93,6 +95,7 @@ class App extends React.Component {
           NamePro_1={this.state.NamePro_1} NamePro_2={this.state.NamePro_2} NamePro_3={this.state.NamePro_3} NamePro_4={this.state.NamePro_4} 
           Link_1={this.state.Link_1} Link_2={this.state.Link_2} Link_3={this.state.Link_3} Link_4={this.state.Link_4} 
         />
+        <ContactUs/>
       </div>
      )
 
